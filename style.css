@@ -1,0 +1,44 @@
+body {
+    background-color: #0c1722;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header hr {
+    width: 350px;
+}
+
+.container {
+    width: 580px;
+    margin: 3rem auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #0c1722 ;
+    margin-bottom: 24px;
+    border-radius: 10px;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+
+}
+
+button {
+    color: #7de6fd;
+    background-color: transparent;
+    border: 1px solid #7de6fd;
+    width: 120px;
+    padding: 10px 0;
+    border-radius: 6px;
+    display: none;
+}
